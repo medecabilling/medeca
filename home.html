@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HEALTHCARE Agency</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+<link href="css/master.css" rel="stylesheet">
+<link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
+<link rel="stylesheet" href="plugins/iview/css/skin/style.css" type='text/css' media='all' />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src= "js/jquery-migrate-1.2.1.js" ></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap-3.1.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<div class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  > 
+  
+  <!-- Loader Landing Page -->
+  <div id="ip-container" class="ip-container"> 
+    <!-- initial header -->
+    <header class="ip-header" >
+      <div class="ip-loader">
+        <div class="text-center">
+          <div class="ip-logo"><img  src="img/logo.png" height="50" width="294" alt="logo"></div>
+        </div>
+        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z"/>
+        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg> </div>
+    </header>
+  </div>
+  <!-- Loader end -->
+  
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 text-left">
+          <ul class="social-links">
+            <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+            <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+            <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
+            <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
+          </ul>
+        </div>
+        <div class="top-header__links col-sm-7">
+          <div class="btn-group languages">
+            <button type="button" class="btn_languages dropdown-toggle" data-toggle="dropdown"><i class="icon_globe-2"></i>English UK<span class="caret color_primary"></span></button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="javascript:void(0);">English UK1</a></li>
+              <li><a href="javascript:void(0);">English UK2</a></li>
+            </ul>
+          </div>
+           </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- HEADER -->
+  <div class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="row">
+          <div class="col-md-4 col-xs-12"> <a href="index.html" class="logo"> <img class="logo__img" src="img/logo.png" height="50" width="294" alt="Logo"> </a> </div>
+          <div class="col-md-8 col-xs-12">
+            <div class="header-block"> <span class="header-label"> <i class="icon-header icon-call-in color_primary"></i> <span class="helper"> Call Us <a href="tel:+522 234 56789"><strong>+522 234 56789</strong></a></span> </span> <span class="header-label"> <i class="icon-header icon-envelope-open color_primary"></i> <span class="helper"> Email us <a href="mailto:help@domain.com"><strong>help@domain.com</strong></a></span>  </div>
+            <form class="hidden-md hidden-lg text-center" id="search-global-mobile" method="get">
+              <input type="text" value="" id="search-mobile" name="s" >
+              <button type="submit"><i class="icon fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- end header-inner--> 
+    </div>
+    <!-- end container-->
+    
+    <div class="top-nav ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12  col-xs-12">
+            <div class="navbar yamm " >
+              <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
+                <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <a href="#" class="navbar-brand">Menu</a> </div>
+              <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown"><a href="home.html"  >Home <b class="caret color_primary"></b> </a>
+                    
+                  </li>
+                  <li class="dropdown"><a href="about-1.html"  >ABOUT<b class="caret color_primary"></b> </a>
+                    
+                  </li>
+                  <li class="dropdown"><a href=""  > SERVICES <b class="caret color_primary"></b> </a>
+                    
+                  </li>
+                  
+                  
+                  <li><a href="contact.html"  >CONTACT </a> </li>
+                </ul>
+                <form id="search-global-menu" class="hidden-xs hidden-sm" method="get">
+                  <input type="text" value="" id="search" name="s" >
+                  <button type="submit"><i class="icon-magnifier"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end top-nav --> 
+  </div>
+  <!-- HEADER END -->
+  
+  <div id="iview" class="main-slider">
+    <div data-iview:thumbnail="media/slider_main/1.jpg" data-iview:image="media/slider_main/1.jpg" data-iview:transition="block-drop-random" >
+      <div class="container">
+        <div class="iview-caption bg-no-caption" data-x="660" data-y="143" data-transition="expandLeft">
+          <div class="custom-caption">
+            <p class="slide-title bg-color_second">Revenue Cycle Management</p>
+            <p class="slide-title_second">Enhance your revenue cycle & <br/> accomplish your practice goals.</p>
+            <p class="slide-text">Revenue cycle management (RCM) is important for more than paying the bills.  </p>
+            <p class="slide-text">It enables medical professionals to purchase supplies, obtain equipment, <br>expand, and offer a greater number of services to patients.</p>
+            <a href="javascript:void(0);" class="btn bg-color_primary">VIEW SERVICES <span class="btn-plus">+</span></a> </div>
+        </div>
+      </div>
+    </div>
+    <div data-iview:thumbnail="media/slider_main/2.jpg" data-iview:image="media/slider_main/2.jpg" data-iview:transition="block-drop-random" >
+      <div class="container">
+        <div class="iview-caption  bg-no-caption" data-x="260" data-y="233" data-transition="expandLeft">
+          <div class="custom-caption">
+            <p class="slide-title bg-color_second">Revenue Cycle Management</p>
+            <p class="slide-title_second">Enhance your revenue cycle & <br/> accomplish your practice goals.</p>
+            <p class="slide-text">Revenue cycle management (RCM) is important for more than paying the bills.  </p>
+            <p class="slide-text">It enables medical professionals to purchase supplies, obtain equipment, <br>expand, and offer a greater number of services to patients.</p>
+            <a href="javascript:void(0);" class="btn bg-color_primary">VIEW SERVICES <span class="btn-plus">+</span></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end iview -->
+  
+ 
+  <!-- end container -->
+  
+  <section class="advantages wow fadeInUp" data-wow-delay="1.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="ui-title-block">Welcome to <strong class="font-weight_600">MEDECA BILLING </strong><span class="font-weight-norm color_primary">SOLUTIONS</span></h1>
+          <div class="ui-subtitle-block">Our Excellence Will Blow Your Mind</div>
+          
+        </div>
+        
+        <section class="advantages__inner col-sm-6"> 
+          <h2 class="ui-title-inner">Revenue Cycle Management - Hospitals</h2>
+          <i class="decor-brand"></i>
+          <p class="ui-text text-center">Medeca Billing Solutions provides excellent RCM services. We have experience in providing our clients BPO services for healthcare sector that not only helps simplify the on boarding of their RCM requirements but also help them to focus on patient care.
+          </p>
+          <a class="btn btn_small" href="javascript:void(0);">LEARN MORE</a> </section>
+        <section class="advantages__inner col-sm-6"> 
+          <h2 class="ui-title-inner">Revenue Cycle Management - Physician Groups</h2>
+          <i class="decor-brand"></i>
+          <p class="ui-text text-center">Medeca Billing Solutions provides excellent RCM services. We have experience in providing our clients BPO services for healthcare sector that not only helps simplify the on boarding of their RCM requirements but also help them to focus on patient care.
+          </p>
+          <a class="btn btn_small" href="javascript:void(0);">LEARN MORE</a> </section>
+        
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end advantages -->
+  
+  <section class="section bg bg_2 bg_transparent text-center">
+  
+  <div class="icon-tabs-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="ui-title-block color_white">Our <strong>Advantages</strong></h2>
+          <div class="ui-subtitle-block no-spacing">Why Choose Us?</div>
+        </div>
+        <div class="icon-tabs">
+          <div class="col-md-6 wow bounceInLeft">
+            <ul class="list-icons ">
+              <li class="active ">
+              <a href="#icontab1" aria-controls="icontab1" role="tab" data-toggle="tab"><span class="icon-round bg-color_second helper "><i class="icon fa fa-ambulance"></i></span></a></li>
+              <li> <a href="#icontab2" aria-controls="icontab2"  role="tab" data-toggle="tab"><span class="icon-round bg-color_second helper"><i class="icon fa fa-heartbeat"></i></span></a></li>
+              <li> <a href="#icontab3" aria-controls="icontab3"  role="tab" data-toggle="tab"><span class="icon-round bg-color_second helper"><i class="icon fa fa-hospital-o"></i></span></a></li>
+              <li> <a href="#icontab4" aria-controls="icontab4"  role="tab" data-toggle="tab"><span class="icon-round bg-color_second helper"><i class="icon fa fa-user-md"></i></span></a></li>
+            </ul>
+          
+          </div>
+          <div class="col-md-6 text-right wow bounceInRight"> 
+            
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="icontab1"><img src="img/wcu.jpg" height="270" width="530" alt="Foto">
+              
+              <div class="tab-info">
+              
+                <p class="title-small">Efficient Medical Billing Process
+                </p>
+            <p class="ui-text text-center color_light-grey">The greatest challenge faced by healthcare experts is unsettled financial transactions due to a unorganized revenue cycle. Are you experiencing lower reimbursement than expected and facing increase in denials and increasing operating costs?.</p>
+            
+            </div>
+              
+              </div>
+              <div role="tabpanel" class="tab-pane" id="icontab2"><img src="img/wcu1.jpg" height="270" width="530" alt="Foto">
+              
+              <div class="tab-info">
+              
+                <p class="title-small">Focussed on Physicians Success 
+                </p>
+            <p class="ui-text text-center color_light-grey">Are you unable to focus more towards patient care because you have to spend more time on your practice administration?</p>
+            
+            </div>
+              
+              </div>
+              <div role="tabpanel" class="tab-pane" id="icontab3"><img src="img/wcu.jpg" height="270" width="530"  alt="Foto">
+              
+              
+              <div class="tab-info">
+              
+                <p class="title-small">On-Going training of Staff</p>
+            <p class="ui-text text-center color_light-grey">Healthcare providers across the world especially in USA are facing challenges such as increasing complicated regulations, increasingly complex coding, declining reimbursements and increasing operating costs.
+            </p>
+            
+            </div>
+            
+            
+            </div>
+              <div role="tabpanel" class="tab-pane" id="icontab4"><img src="img/wcu1.jpg"  height="270" width="530" alt="Foto">
+              
+              <div class="tab-info">
+              
+                <p class="title-small">On-Going Communication with Clients</p>
+            <p class="ui-text text-center color_light-grey">We at Medeca Billing Solutions understand that building a successful practice is challenging in today’s healthcare scenario. Regardless of the size or specialty of your practice, Medeca Billing Solutions can offer you a comprehensive and fully integrated complete medical billing solution. Medical billing is our core competency and we can efficiently manage all your billing needs. Our medical billing specialists have experience with all key insurance payors including Medicare and Medicaid.
+            </p>
+            
+            </div>
+            
+            </div>
+              <!-- <div role="tabpanel" class="tab-pane" id="icontab5"><img src="media/530x270/5.jpg"  alt="Foto">
+              
+              <div class="tab-info">
+              
+                <p class="title-small">Why Primary Health Care</p>
+            <p class="ui-text text-center color_light-grey">Aliquam orci lacus, mattis nec ornare sed, varius eget, turpis. Donec eget massa velit interdum interdum. Cras vehicula, pede a viverra varius pede sapien commodo turpis et blandit ut nisi. Eonec pede</p>
+             -->
+            </div>
+            
+            
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row --> 
+    </div>  </div>
+    <!-- end container --> 
+  </section>
+  <!-- end section -->
+  
+  <div class="banner mod-1 bg bg_3 bg_transparent wow zoomIn" data-wow-delay="1s">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-md-offset-1">
+          <div class="banner__wrap pull-left">
+            <p class="banner__title">Our Mission </p>
+            <p class="banner__text">Our mission is to deliver a highly user-friendly relationship you can trust, developed through an unwavering commitment to excellence.
+              We are above the ordinary! We are determined to achieve your goal.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="col-md-3 col-md-offset-1"> <a class="btn btn pull-right" href="javascript:void(0);">PURCHASE NOW <span class="btn-plus">+</span></a> </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- end banner -->
+  
+  <div class="section-large bg bg_4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2 col-sm-6">
+          <img height="600" width="670" src="img/OurService.jpg">
+        </div>
+        <div class="col-sm-6 wow bounceInRight" data-wow-delay="1s">
+          <div class="padd_left_20">
+            <h2 class="ui-title-block ui-title-block_small">Our <span>Deliverables</span></h2>
+            <div class="panel-group accordion" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading"> <a class="btn-collapse" data-toggle="collapse" data-parent="#accordion" href="#collapse-1"><i class="icon fa"></i></a>
+                  <h3 class="panel-title">People</h3>
+                </div>
+                <div id="collapse-1" class="panel-collapse collapse in">
+                  <div class="panel-body"> <img src="media/120x125/1.jpg" height="125" width="120" alt="Foto">
+                    <p class="ui-text">Highly skilled and experienced staff <br>
+                      CPC Certified Medical Coders.<br>
+                      College and Master degree holder work force.
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading"> <a class="btn-collapse" data-toggle="collapse" data-parent="#accordion" href="#collapse-2"><i class="icon fa"></i></a>
+                  <h3 class="panel-title"> Process</h3>
+                </div>
+                <div id="collapse-2" class="panel-collapse collapse">
+                  <div class="panel-body"> <img src="media/120x125/1.jpg" height="125" width="120" alt="Foto">
+                    <p class="ui-text">
+                      With our proven methodology initiate transition of your revenue cycle management.<br>
+                      Detailed reports to track performance and create better visibility to KPIs.<br>
+                      Drive operational excellence.<br>
+                      Enable healthier revenue flow.
+
+                    </p>
+                    <a href="javascript:void(0);" class="link">LEARN MORE</a> </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading"> <a class="btn-collapse" data-toggle="collapse" data-parent="#accordion" href="#collapse-3"><i class="icon fa"></i></a>
+                  <h3 class="panel-title">Technology</h3>
+                </div>
+                <div id="collapse-3" class="panel-collapse collapse">
+                  <div class="panel-body"> <img src="media/120x125/1.jpg" height="125" width="120" alt="Foto">
+                    <p class="ui-text">
+                      Powerful workflow engine.<br>
+                      Knowledge Management.<br>
+                      Productivity Enhancement Modules.<br>
+                      Operations Dashboard
+
+                    </p>
+                    <a href="javascript:void(0);" class="link">LEARN MORE</a> </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading"> <a class="btn-collapse" data-toggle="collapse" data-parent="#accordion" href="#collapse-4"><i class="icon fa"></i></a>
+                  <h3 class="panel-title">Quality</h3>
+                </div>
+                <div id="collapse-4" class="panel-collapse collapse">
+                  <div class="panel-body"> <img src="media/120x125/1.jpg" height="125" width="120" alt="Foto">
+                    <p class="ui-text">
+                      At Medeca Billing Solutions we focus on quality over quantity and take all necessary measures to keep check on the quality of our output.
+                    </p>
+                    <a href="javascript:void(0);" class="link">LEARN MORE</a> </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading"> <a class="btn-collapse" data-toggle="collapse" data-parent="#accordion" href="#collapse-5"><i class="icon fa"></i></a>
+                  <h3 class="panel-title">Adaptability</h3>
+                </div>
+                <div id="collapse-5" class="panel-collapse collapse">
+                  <div class="panel-body"> <img src="media/120x125/1.jpg" height="125" width="120" alt="Foto">
+                    <p class="ui-text">
+                      We constantly adapt to changes and are ICD-10 compliant with error free claims and faster reimbursement. Medeca Billing is a HIPAA compliance organization.
+
+                    </p>
+                    <a href="javascript:void(0);" class="link">LEARN MORE</a> </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading"> <a class="btn-collapse" data-toggle="collapse" data-parent="#accordion" href="#collapse-5"><i class="icon fa"></i></a>
+                  <h3 class="panel-title">IT Security</h3>
+                </div>
+                <div id="collapse-5" class="panel-collapse collapse">
+                  <div class="panel-body"> <img src="media/120x125/1.jpg" height="125" width="120" alt="Foto">
+                    <p class="ui-text">
+                      At Medeca Billing Solutions, We assure our clients that their customers information is protected as per industry standard. We have invested in physical data security and compliance requirements to ensure that our facility is fully HIPAA compliant which is being monitored by a HIPAA compliance officer.
+
+                    </p></div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading"> <a class="btn-collapse" data-toggle="collapse" data-parent="#accordion" href="#collapse-6"><i class="icon fa"></i></a>
+                  <h3 class="panel-title">Compliance</h3>
+                </div>
+                <div id="collapse-6" class="panel-collapse collapse">
+                  <div class="panel-body"> <img src="media/120x125/1.jpg" height="125" width="120" alt="Foto">
+                    <p class="ui-text">Compliance is critical for Medeca Billing Solutions and we take it very seriously!
+                      It is very important for medical billing company to be HIPAA compliant. HIPAA act sets the standard for sensitive patient data protection. Companies that deal with protected health information (PHI) must have physical, network and process security measures in place and follow them to ensure HIPAA Compliance. 
+                     <p><b>Physical Safeguard</b></p> 
+                      <ul class="ui-text">
+                        <li>Limited facility access and control with authorized access in place
+                        </li>
+                        <li>Policies about use and access to workstations and electronic media
+                        </li>
+                        <li>Restrictions for transferring, removing, disposing, and re-using electronic media and ePHI
+                        </li>
+                      </ul>
+                      <p><b>Technical Safeguards</b></p>
+                      <ul class="ui-text">
+                        <li>Using unique user IDS, emergency access procedures, automatic log off, and encryption and decryption
+                        </li>
+                        <li>Audit reports or tracking logs that record activity on hardware and software.
+                        </li>
+
+                      </ul>
+                      <p><b>Data Protection</b></p>
+                      <p class="ui-text"> The need for data security has grown with the increase in the use and sharing of electronic patient data. Today, high-quality care requires healthcare organizations to meet this accelerated demand for data while complying with HIPAA regulations and protecting PHI. Having a data protection strategy in place allows healthcare organizations to:
+                        Ensure the security and availability of PHI to maintain the trust of practitioners and patients
+                        Meet HIPAA and HITECH regulations for access, audit, integrity controls, data transmission, and device security
+                        Maintain greater visibility and control of sensitive data throughout the organization
+                        </p>
+                    </p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </div>
+  <!-- end section -->
+  
+ 
+  
+
+  <!-- end banner -->
+  
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-6">
+            <section class="footer__section">
+              <h2 class="footer__title">About Medeca Billing Solutions</h2>
+              <i class="decor-brand decor-brand_footer"></i>
+              <p>Medeca Billing Solutions is a BPO company with a world class team of highly skilled medical coding, medical billing and Accounts Receivable professionals. Medeca Billing Solutions help solve revenue cycle performance challenges across hospitals, health systems and physician groups.
+              </p>
+              <address class="footer__contacts">
+              <i class="footer__icon icon-pointer color_primary"></i>Plot No. 38 St. 39 UpHill Town, Newyork, USA
+              </address>
+              <p class="footer__contacts"><i class="footer__icon icon-call-in color_primary"></i>+522 234 56789  / +522 234 56780</p>
+              <p class="footer__contacts"><i class="footer__icon icon-envelope-open color_primary"></i>info@healthcare-agency.org</p>
+            </section>
+            <section class="footer__section">
+              <h2 class="footer__title">Opening Hours</h2>
+              <i class="decor-brand decor-brand_footer"></i>
+              <table class="footer__table">
+                <tbody>
+                  <tr>
+                    <td>Monday - Friday</td>
+                    <td>08:00am - 10:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>09:00am - 06:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Emergency Services</td>
+                    <td>24 hours Open</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </div>
+          
+          <section class="footer__section col-sm-6">
+            <h2 class="footer__title">Contact Form</h2>
+            <i class="decor-brand decor-brand_footer"></i>
+            <form class="form" role="form">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Full Name">
+                <input class="form-control" type="email" placeholder="Email address">
+                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                <input class="btn bg-color_primary pull-right" type="submit" value="SEND NOW">
+              </div>
+            </form>
+          </section>
+        </div>
+        <!-- end row --> 
+      </div>
+      <!-- end container --> 
+    </div>
+    <!-- end footer__inner -->
+    
+    <div class="footer__menu clearfix">
+      <div class="container"> <a href="index.html" class="logo pull-left"> <img class="logo__img" src="img/logo.png" height="44" width="270" alt="Logo"> </a>
+        <ul class="pull-right">
+          <li><a href="javascript:void(0);">HOME</a></li>
+          <li><a href="javascript:void(0);">ABOUT</a></li>
+          <li><a href="javascript:void(0);">SERVICES</a></li>
+          <li><a href="javascript:void(0);">PAGES</a></li>
+          <li><a href="javascript:void(0);">GALLERY</a></li>
+          <li><a href="javascript:void(0);">BLOG</a></li>
+          <li><a href="javascript:void(0);">SHOP</a></li>
+          <li><a href="javascript:void(0);">CONTACT</a></li>
+        </ul>
+      </div>
+      <!-- end container --> 
+    </div>
+    <!-- end footer__menu -->
+    
+    <div class="footer__bottom">
+       <span class="copyright">© Copyrights 2021 <a class="color_primary" href="www.altumcon.com">Altum Consultancy</a></span>
+      <ul class="social-links">
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
+        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
+        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
+        <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+<!-- end layout-theme --> 
+
+<span class="scroll-top bg-color_second"> <i class="fa fa-angle-up"> </i></span> 
+
+<!--HOME SLIDER--> 
+<script src="plugins/iview/js/iview.js"></script> 
+  <script src="plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+
+<!-- SCRIPTS --> 
+<script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script> 
+<script src="js/waypoints.min.js"></script> 
+<script src="plugins/bxslider/jquery.bxslider.min.js"></script> 
+<script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="plugins/datetimepicker/jquery.datetimepicker.js"></script> 
+<script src="plugins/jelect/jquery.jelect.js"></script> 
+<script src="plugins/nouislider/jquery.nouislider.all.min.js"></script> 
+
+<!-- Loader --> 
+<script src="plugins/loader/js/classie.js"></script> 
+<script src="plugins/loader/js/pathLoader.js"></script> 
+<script src="plugins/loader/js/main.js"></script> 
+<script src="js/classie.js"></script> 
+<!--THEME--> 
+<script src="js/cssua.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>
